@@ -1,4 +1,4 @@
-# Grokking-Functional-Programming
+# Grokking Functional Programming
 
 - contents
 - preface xix
@@ -9,25 +9,25 @@
 ## Part 1 the functional toolkit . . . . . . . . . . . . . . . . . . .1
 
 ### 1 Learning functional programming 3
-01 Perhaps you picked up this book because... 4
-02 What do you need to know before we start? 5
-03 What do functions look like? 6 
-04 Meet the function 7 
-05 When the code lies... 8
-06 Imperative vs. declarative 9 
-07 Coffee break: Imperative vs. declarative 10
-08 Coffee break explained: Imperative vs. declarative 11
-09 How useful is learning functional programming? 12
-10 Leaping into Scala 13
-11 Practicing functions in Scala 14
-12 Getting your tools ready 15
-13 v
-14 
-15 vi
-16 contents
-17 Getting to know the REPL 16
-18 Writing your first functions! 17
-19 How to use this book 18
+- [ ] 01 Perhaps you picked up this book because... 4
+- [ ] 02 What do you need to know before we start? 5
+- [ ] 03 What do functions look like? 6 
+- [ ] 04 Meet the function 7 
+- [ ] 05 When the code lies... 8
+- [ ] 06 Imperative vs. declarative 9 
+- [ ] 07 Coffee break: Imperative vs. declarative 10
+- [ ] 08 Coffee break explained: Imperative vs. declarative 11
+- [ ] 09 How useful is learning functional programming? 12
+- [ ] 10 Leaping into Scala 13
+- [ ] 11 Practicing functions in Scala 14
+- [ ] 12 Getting your tools ready 15
+- [ ] 13 v
+- [ ] 14 
+- [ ] 15 vi
+- [ ] 16 contents
+- [ ] 17 Getting to know the REPL 16
+- [ ] 18 Writing your first functions! 17
+- [ ] 19 How to use this book 18
 
 ### 2 Pure functions 21
 Why do we need pure functions? 22
