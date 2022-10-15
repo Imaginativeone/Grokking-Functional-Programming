@@ -20,427 +20,427 @@
 - [ ] 15 015 018 How to use this book
 
 ### 2 Pure functions 21
-- [ ] 01 020 022 Why do we need pure functions?
-- [ ] 02 021 023 Coding imperatively
-- [ ] 03 022 024 Breaking the code
-- [ ] 04 023 025 Passing copies of the data
-- [ ] 05 024 026 Breaking the code...again
-- [ ] 06 025 027 Recalculating instead of storing
-- [ ] 07 026 028 Focusing on the logic by passing the state
-- [ ] 08 027 029 Where did the state go?
-- [ ] 09 028 030 The difference between impure and pure functions
-- [ ] 10 029 031 Coffee break: Refactoring to a pure function
-- [ ] 11 030 032 Coffee break explained: Refactoring to a pure function
-- [ ] 12 031 034 In pure functions we trust
-- [ ] 13 032 035 Pure functions in programming languages
-- [ ] 14 033 036 Difficulty of staying pure...
-- [ ] 15 034 037 Pure functions and clean code
-- [ ] 16 035 038 Coffee break: Pure or impure?
-- [ ] 17 036 039 Coffee break explained: Pure or impure?
-- [ ] 18 037 040 Using Scala to write pure functions
-- [ ] 19 038 041 Practicing pure functions in Scala
-- [ ] 20 039 042 Testing pure functions
-- [ ] 21 040 043 Coffee break: Testing pure functions
-- [ ] 22 041 044 Coffee break explained: Testing pure functions
+- [ ] 01 016 022 Why do we need pure functions?
+- [ ] 02 017 023 Coding imperatively
+- [ ] 03 018 024 Breaking the code
+- [ ] 04 019 025 Passing copies of the data
+- [ ] 05 020 026 Breaking the code...again
+- [ ] 06 021 027 Recalculating instead of storing
+- [ ] 07 022 028 Focusing on the logic by passing the state
+- [ ] 08 023 029 Where did the state go?
+- [ ] 09 024 030 The difference between impure and pure functions
+- [ ] 10 025 031 Coffee break: Refactoring to a pure function
+- [ ] 11 026 032 Coffee break explained: Refactoring to a pure function
+- [ ] 12 027 034 In pure functions we trust
+- [ ] 13 028 035 Pure functions in programming languages
+- [ ] 14 029 036 Difficulty of staying pure...
+- [ ] 15 030 037 Pure functions and clean code
+- [ ] 16 031 038 Coffee break: Pure or impure?
+- [ ] 17 032 039 Coffee break explained: Pure or impure?
+- [ ] 18 033 040 Using Scala to write pure functions
+- [ ] 19 034 041 Practicing pure functions in Scala
+- [ ] 20 035 042 Testing pure functions
+- [ ] 21 036 043 Coffee break: Testing pure functions
+- [ ] 22 037 044 Coffee break explained: Testing pure functions
 
 ### 3 Immutable values 47
-- [ ] 01 042 048 The fuel for the engine
-- [ ] 02 043 049 Another case for immutability
-- [ ] 03 044 050 Can you trust this function?
-- [ ] 04 047 051 Mutability is dangerous
-- [ ] 05 048 052 Functions that lie...again
-- [ ] 06 049 053 Fighting mutability by working with copies
-- [ ] 07 050 054 Coffee break: Getting burned by mutability
-- [ ] 08 051 055 Coffee break explained: Getting burned by mutability
-- [ ] 09 052 058 Introducing shared mutable state
-- [ ] 10 053 059 State’s impact on programming abilities
-- [ ] 11 054 060 Dealing with the moving parts
-- [ ] 12 055 061 Dealing with the moving parts using FP
-- [ ] 13 056 062 Immutable values in Scala
-- [ ] 14 057 063 Building our intuition about immutability
-- [ ] 15 058 064 Coffee break: The immutable String API
-- [ ] 16 059 065 Coffee break explained: The immutable String API
-- [ ] 17 060 066 Hold on...Isn’t this bad?
-- [ ] 18 061 067 Purely functional approach to shared mutable state
-- [ ] 19 062 069 Practicing immutable slicing and appending
+- [ ] 01 038 048 The fuel for the engine
+- [ ] 02 039 049 Another case for immutability
+- [ ] 03 040 050 Can you trust this function?
+- [ ] 04 041 051 Mutability is dangerous
+- [ ] 05 042 052 Functions that lie...again
+- [ ] 06 043 053 Fighting mutability by working with copies
+- [ ] 07 044 054 Coffee break: Getting burned by mutability
+- [ ] 08 045 055 Coffee break explained: Getting burned by mutability
+- [ ] 09 046 058 Introducing shared mutable state
+- [ ] 10 047 059 State’s impact on programming abilities
+- [ ] 11 048 060 Dealing with the moving parts
+- [ ] 12 049 061 Dealing with the moving parts using FP
+- [ ] 13 050 062 Immutable values in Scala
+- [ ] 14 051 063 Building our intuition about immutability
+- [ ] 15 052 064 Coffee break: The immutable String API
+- [ ] 16 053 065 Coffee break explained: The immutable String API
+- [ ] 17 054 066 Hold on...Isn’t this bad?
+- [ ] 18 055 067 Purely functional approach to shared mutable state
+- [ ] 19 056 069 Practicing immutable slicing and appending
 
 ### 4 Functions as values 071
-- [ ] 01 064 072 Implementing requirements as functions
-- [ ] 02 065 073 Impure functions and mutable values strike back
-- [ ] 03 066 074 Using Java Streams to sort the list
-- [ ] 04 067 075 Function signatures should tell the whole story
-- [ ] 05 068 077 Changing requirements 76 We just pass the code around!
-- [ ] 06 069 078 Using Java’s Function values
-- [ ] 07 070 079 Using the Function syntax to deal with code duplication
-- [ ] 08 071 080 Passing user-defined functions as arguments
-- [ ] 09 072 081 Coffee break: Functions as parameters
-- [ ] 10 073 082 Coffee break explained: Functions as parameters
-- [ ] 11 074 083 Problems with reading functional Java
-- [ ] 12 075 084 Passing functions in Scala
-- [ ] 13 076 085 Deep dive into sortBy
-- [ ] 14 077 086 Signatures with function parameters in Scala
-- [ ] 15 081 087 Passing functions as arguments in Scala
-- [ ] 16 082 088 Practicing function passing
-- [ ] 17 083 089 Embracing declarative programming
-- [ ] 18 084 090 Passing functions to custom-made functions
-- [ ] 19 085 091 Small functions and their responsibilities
-- [ ] 20 086 092 Passing functions inline
-- [ ] 21 087 093 Coffee break: Passing functions in Scala
-- [ ] 22 088 094 Coffee break explained: Passing functions in Scala
-- [ ] 23 089 095 What else can we achieve just by passing functions?
-- [ ] 24 090 096 Applying a function to each element of a list
-- [ ] 25 091 097 Applying a function to each element of a list using map
-- [ ] 26 092 098 Getting to know map
-- [ ] 27 093 099 Practicing map
-- [ ] 28 094 100 Learn once, use everywhere
-- [ ] 29 095 101 Returning parts of the list based on a condition
-- [ ] 30 096 102 Returning parts of the list using filter
-- [ ] 31 097 103 Getting to know filter
-- [ ] 32 098 104 Practicing filter
-- [ ] 33 099 105 Our journey so far...
-- [ ] 34 100 106 Don’t repeat yourself?
-- [ ] 35 101 107 Is my API easy to use?
-- [ ] 36 102 108 Adding a new parameter is not enough
-- [ ] 37 103 109 Functions can return functions
-- [ ] 38 104 110 Using functions that can return functions
-- [ ] 39 105 111 Functions are values
-- [ ] 40 106 112 Coffee break: Returning functions
-- [ ] 41 107 113 Coffee break explained: Returning functions
-- [ ] 42 108 114 Designing functional APIs
-- [ ] 43 109 115 Iterative design of functional APIs
-- [ ] 44 110 116 Returning functions from returned functions
-- [ ] 45 111 117 How to return functions from returned functions
-- [ ] 46 112 118 Using the flexible API built with returned functions
-- [ ] 47 113 119 Using multiple parameter lists in functions
-- [ ] 48 114 120 We have been currying!
-- [ ] 49 115 121 Practicing currying
-- [ ] 50 116 122 Programming by passing function values
-- [ ] 51 117 123 Reducing many values into a single value
-- [ ] 52 118 124 Reducing many values into a single one using foldLeft
-- [ ] 53 119 125 Getting to know foldLeft
-- [ ] 54 120 126 foldLeft must-knows
-- [ ] 55 121 127 Practicing foldLeft
-- [ ] 56 122 128 Modeling immutable data
-- [ ] 57 123 129 Using product types with higher-order functions
-- [ ] 58 124 130 More concise syntax for inline functions
+- [ ] 01 057 072 Implementing requirements as functions
+- [ ] 02 058 073 Impure functions and mutable values strike back
+- [ ] 03 059 074 Using Java Streams to sort the list
+- [ ] 04 060 075 Function signatures should tell the whole story
+- [ ] 05 061 077 Changing requirements 76 We just pass the code around!
+- [ ] 06 062 078 Using Java’s Function values
+- [ ] 07 063 079 Using the Function syntax to deal with code duplication
+- [ ] 08 064 080 Passing user-defined functions as arguments
+- [ ] 09 065 081 Coffee break: Functions as parameters
+- [ ] 10 066 082 Coffee break explained: Functions as parameters
+- [ ] 11 067 083 Problems with reading functional Java
+- [ ] 12 068 084 Passing functions in Scala
+- [ ] 13 069 085 Deep dive into sortBy
+- [ ] 14 070 086 Signatures with function parameters in Scala
+- [ ] 15 071 087 Passing functions as arguments in Scala
+- [ ] 16 072 088 Practicing function passing
+- [ ] 17 073 089 Embracing declarative programming
+- [ ] 18 074 090 Passing functions to custom-made functions
+- [ ] 19 075 091 Small functions and their responsibilities
+- [ ] 20 076 092 Passing functions inline
+- [ ] 21 077 093 Coffee break: Passing functions in Scala
+- [ ] 22 078 094 Coffee break explained: Passing functions in Scala
+- [ ] 23 079 095 What else can we achieve just by passing functions?
+- [ ] 24 080 096 Applying a function to each element of a list
+- [ ] 25 081 097 Applying a function to each element of a list using map
+- [ ] 26 082 098 Getting to know map
+- [ ] 27 083 099 Practicing map
+- [ ] 28 084 100 Learn once, use everywhere
+- [ ] 29 085 101 Returning parts of the list based on a condition
+- [ ] 30 086 102 Returning parts of the list using filter
+- [ ] 31 087 103 Getting to know filter
+- [ ] 32 088 104 Practicing filter
+- [ ] 33 089 105 Our journey so far...
+- [ ] 34 090 106 Don’t repeat yourself?
+- [ ] 35 091 107 Is my API easy to use?
+- [ ] 36 092 108 Adding a new parameter is not enough
+- [ ] 37 093 109 Functions can return functions
+- [ ] 38 094 110 Using functions that can return functions
+- [ ] 39 095 111 Functions are values
+- [ ] 40 096 112 Coffee break: Returning functions
+- [ ] 41 097 113 Coffee break explained: Returning functions
+- [ ] 42 098 114 Designing functional APIs
+- [ ] 43 099 115 Iterative design of functional APIs
+- [ ] 44 100 116 Returning functions from returned functions
+- [ ] 45 101 117 How to return functions from returned functions
+- [ ] 46 102 118 Using the flexible API built with returned functions
+- [ ] 47 103 119 Using multiple parameter lists in functions
+- [ ] 48 104 120 We have been currying!
+- [ ] 49 105 121 Practicing currying
+- [ ] 50 106 122 Programming by passing function values
+- [ ] 51 107 123 Reducing many values into a single value
+- [ ] 52 108 124 Reducing many values into a single one using foldLeft
+- [ ] 53 109 125 Getting to know foldLeft
+- [ ] 54 110 126 foldLeft must-knows
+- [ ] 55 111 127 Practicing foldLeft
+- [ ] 56 112 128 Modeling immutable data
+- [ ] 57 113 129 Using product types with higher-order functions
+- [ ] 58 114 130 More concise syntax for inline functions
 
 ## Part 2 functional Programs . . . . . . . . . . . . . . . . . . . .133
 
 ### 5 Sequential programs 135
-- [ ] 01 125 136 Writing pipeline-based algorithms
-- [ ] 02 126 137 Composing larger programs from smaller pieces
-- [ ] 03 127 138 The imperative approach
-- [ ] 04 128 139 flatten and flatMap
-- [ ] 05 129 140 Practical use case of using more flatMaps
-- [ ] 06 130 141 flatMap and changing the size of the list
-- [ ] 07 131 142 Coffee break: Dealing with lists of lists
-- [ ] 08 132 143 Coffee break explained: Dealing with lists of lists
-- [ ] 09 133 144 Chained flatMaps and maps
-- [ ] 10 134 145 Nested flatMaps
-- [ ] 11 135 146 Values that depend on other values
-- [ ] 12 136 147 Practicing nested flatMaps
-- [ ] 13 137 148 A better syntax for nested flatMaps
-- [ ] 14 138 149 For comprehensions to the rescue!
-- [ ] 15 139 150 Coffee break: flatMaps vs. for comprehensions
-- [ ] 16 140 151 Coffee break explained: flatMaps vs. for comprehensions
-- [ ] 17 141 152 Getting to know for comprehensions
-- [ ] 18 142 153 It’s not the for you are looking for!
-- [ ] 19 143 154 Inside a for comprehension
-- [ ] 20 144 155 More sophisticated for comprehensions
-- [ ] 21 147 156 Checking all combinations using a for comprehension
-- [ ] 22 148 157 Filtering techniques
-- [ ] 23 149 158 Coffee break: Filtering techniques
-- [ ] 24 150 159 Coffee break explained: Filtering techniques
-- [ ] 25 151 160 Looking for a greater abstraction
-- [ ] 26 152 161 Comparing map, foldLeft, and flatMap
-- [ ] 27 153 162 Using for comprehensions with Sets
-- [ ] 28 154 163 Using for comprehensions with many types
-- [ ] 29 155 164 Practicing for comprehensions
-- [ ] 30 156 165 Defining for comprehensions...again
-- [ ] 31 157 166 Using for comprehensions with noncollection types
-- [ ] 32 158 167 Avoiding nulls: Option type
-- [ ] 33 159 168 Parsing as a pipeline
-- [ ] 34 160 169 Coffee break: Parsing with Option
-- [ ] 35 161 170 Coffee break explained: Parsing with Option
+- [ ] 01 115 136 Writing pipeline-based algorithms
+- [ ] 02 116 137 Composing larger programs from smaller pieces
+- [ ] 03 117 138 The imperative approach
+- [ ] 04 118 139 flatten and flatMap
+- [ ] 05 119 140 Practical use case of using more flatMaps
+- [ ] 06 120 141 flatMap and changing the size of the list
+- [ ] 07 121 142 Coffee break: Dealing with lists of lists
+- [ ] 08 122 143 Coffee break explained: Dealing with lists of lists
+- [ ] 09 123 144 Chained flatMaps and maps
+- [ ] 10 124 145 Nested flatMaps
+- [ ] 11 125 146 Values that depend on other values
+- [ ] 12 126 147 Practicing nested flatMaps
+- [ ] 13 127 148 A better syntax for nested flatMaps
+- [ ] 14 128 149 For comprehensions to the rescue!
+- [ ] 15 129 150 Coffee break: flatMaps vs. for comprehensions
+- [ ] 16 130 151 Coffee break explained: flatMaps vs. for comprehensions
+- [ ] 17 131 152 Getting to know for comprehensions
+- [ ] 18 132 153 It’s not the for you are looking for!
+- [ ] 19 133 154 Inside a for comprehension
+- [ ] 20 134 155 More sophisticated for comprehensions
+- [ ] 21 135 156 Checking all combinations using a for comprehension
+- [ ] 22 136 157 Filtering techniques
+- [ ] 23 137 158 Coffee break: Filtering techniques
+- [ ] 24 138 159 Coffee break explained: Filtering techniques
+- [ ] 25 139 160 Looking for a greater abstraction
+- [ ] 26 140 161 Comparing map, foldLeft, and flatMap
+- [ ] 27 141 162 Using for comprehensions with Sets
+- [ ] 28 142 163 Using for comprehensions with many types
+- [ ] 29 143 164 Practicing for comprehensions
+- [ ] 30 144 165 Defining for comprehensions...again
+- [ ] 31 145 166 Using for comprehensions with noncollection types
+- [ ] 32 146 167 Avoiding nulls: Option type
+- [ ] 33 147 168 Parsing as a pipeline
+- [ ] 34 148 169 Coffee break: Parsing with Option
+- [ ] 35 149 170 Coffee break explained: Parsing with Option
 
 ### 6 Error handling 173
-- [ ] 01 162 174 Handling lots of different errors, gracefully
-- [ ] 02 163 175 Is it even possible to handle them all?
-- [ ] 03 164 176 Sort the list of TV shows by their running time
-- [ ] 04 165 177 Implementing the sorting requirement
-- [ ] 05 166 178 Dealing with data coming from the outside world
-- [ ] 06 167 179 Functional design: Building from small blocks
-- [ ] 07 168 180 Parsing Strings into immutable objects
-- [ ] 08 169 181 Parsing a List is just parsing one element
-- [ ] 09 170 182 Parsing a String into a TvShow
-- [ ] 10 171 183 What about potential errors?
-- [ ] 11 172 184 Is returning null a good idea?
-- [ ] 12 173 185 How do we handle potential errors more gracefully?
-- [ ] 13 174 186 Implementing a function that returns an Option
-- [ ] 14 175 187 Option forces us to handle possible errors
-- [ ] 15 176 188 Building from small blocks
-- [ ] 16 177 189 Functional design is building from small blocks
-- [ ] 17 179 190 Writing a small, safe function that returns an Option
-- [ ] 18 180 192 Functions, values, and expressions
-- [ ] 19 181 193 Practicing safe functions that return Options
-- [ ] 20 182 194 How do errors propagate?
-- [ ] 21 183 195 Values represent errors
-- [ ] 22 184 196 Option, for comprehensions, and checked exceptions...
-- [ ] 23 185 197 What about checked exceptions?
-- [ ] 24 186 198 Conditional recovery
-- [ ] 25 187 199 Conditional recovery using the imperative style
-- [ ] 26 188 201 Checked exceptions don’t compose—Options do!
-- [ ] 27 189 202 How does orElse work?
-- [ ] 28 190 203 Practicing functional error handling
-- [ ] 29 191 204 Functions compose, even in the presence of errors
-- [ ] 30 192 205 Compiler reminds us that errors need to be covered
-- [ ] 31 193 206 Compilation errors are good for us!
-- [ ] 32 194 207 Transforming a List of Options into a flat List
-- [ ] 33 195 208 Let the compiler be our guide...
-- [ ] 34 196 209 ...but let’s not trust the compiler too much!
-- [ ] 35 197 210 Coffee break: Error-handling strategies
-- [ ] 36 198 211 Coffee break explained: Error-handling strategies
-- [ ] 37 199 212 Two different error-handling strategies
-- [ ] 38 200 213 All-or-nothing error-handling strategy
-- [ ] 39 201 214 Folding a List of Options into an Option of a List
-- [ ] 40 202 215 We now know how to handle multiple possible errors!
-- [ ] 41 203 216 How to know what failed
-- [ ] 42 204 217 We need to convey error details in the return value
-- [ ] 43 205 218 Conveying error details using Either
-- [ ] 44 206 219 Refactoring to Either
-- [ ] 45 207 220 Returning an Either instead of an Option
-- [ ] 46 208 223 Practicing safe functions that return Either
-- [ ] 47 209 224 What we learned about Option works with Either
-- [ ] 48 210 225 Coffee break: Error handling using Either
-- [ ] 49 211 226 Coffee break explained: Error handling using Either
-- [ ] 50 212 227 Working with Option/Either
+- [ ] 01 150 174 Handling lots of different errors, gracefully
+- [ ] 02 151 175 Is it even possible to handle them all?
+- [ ] 03 152 176 Sort the list of TV shows by their running time
+- [ ] 04 153 177 Implementing the sorting requirement
+- [ ] 05 154 178 Dealing with data coming from the outside world
+- [ ] 06 155 179 Functional design: Building from small blocks
+- [ ] 07 156 180 Parsing Strings into immutable objects
+- [ ] 08 157 181 Parsing a List is just parsing one element
+- [ ] 09 158 182 Parsing a String into a TvShow
+- [ ] 10 159 183 What about potential errors?
+- [ ] 11 160 184 Is returning null a good idea?
+- [ ] 12 161 185 How do we handle potential errors more gracefully?
+- [ ] 13 162 186 Implementing a function that returns an Option
+- [ ] 14 163 187 Option forces us to handle possible errors
+- [ ] 15 164 188 Building from small blocks
+- [ ] 16 165 189 Functional design is building from small blocks
+- [ ] 17 166 190 Writing a small, safe function that returns an Option
+- [ ] 18 167 192 Functions, values, and expressions
+- [ ] 19 168 193 Practicing safe functions that return Options
+- [ ] 20 169 194 How do errors propagate?
+- [ ] 21 170 195 Values represent errors
+- [ ] 22 171 196 Option, for comprehensions, and checked exceptions...
+- [ ] 23 172 197 What about checked exceptions?
+- [ ] 24 173 198 Conditional recovery
+- [ ] 25 174 199 Conditional recovery using the imperative style
+- [ ] 26 175 201 Checked exceptions don’t compose—Options do!
+- [ ] 27 176 202 How does orElse work?
+- [ ] 28 177 203 Practicing functional error handling
+- [ ] 29 178 204 Functions compose, even in the presence of errors
+- [ ] 30 179 205 Compiler reminds us that errors need to be covered
+- [ ] 31 180 206 Compilation errors are good for us!
+- [ ] 32 181 207 Transforming a List of Options into a flat List
+- [ ] 33 182 208 Let the compiler be our guide...
+- [ ] 34 183 209 ...but let’s not trust the compiler too much!
+- [ ] 35 184 210 Coffee break: Error-handling strategies
+- [ ] 36 185 211 Coffee break explained: Error-handling strategies
+- [ ] 37 186 212 Two different error-handling strategies
+- [ ] 38 187 213 All-or-nothing error-handling strategy
+- [ ] 39 188 214 Folding a List of Options into an Option of a List
+- [ ] 40 189 215 We now know how to handle multiple possible errors!
+- [ ] 41 190 216 How to know what failed
+- [ ] 42 191 217 We need to convey error details in the return value
+- [ ] 43 192 218 Conveying error details using Either
+- [ ] 44 193 219 Refactoring to Either
+- [ ] 45 194 220 Returning an Either instead of an Option
+- [ ] 46 195 223 Practicing safe functions that return Either
+- [ ] 47 196 224 What we learned about Option works with Either
+- [ ] 48 197 225 Coffee break: Error handling using Either
+- [ ] 49 198 226 Coffee break explained: Error handling using Either
+- [ ] 50 199 227 Working with Option/Either
 
 ### 7 Requirements as types 229
-- [ ] 01 213 230 Modeling data to minimize programmers’ mistakes
-- [ ] 02 214 231 Well-modeled data can’t lie
-- [ ] 03 215 232 Designing using what we know so far (which is primitive types)
-- [ ] 04 216 233 Using data modeled as primitive types
-- [ ] 05 217 234 Coffee break: The pain of primitive types
-- [ ] 06 218 235 Coffee break explained: The pain of primitive types
-- [ ] 07 219 236 Problems with the primitive type approach to modeling
-- [ ] 08 220 237 Using primitive types makes our jobs harder!
-- [ ] 09 221 238 Newtypes protect against misplaced parameters
-- [ ] 10 222 239 Using newtypes in data models
-- [ ] 11 223 240 Practicing newtypes
-- [ ] 12 224 241 Making sure only valid data combinations are possible
-- [ ] 13 225 242 Modeling possibility of absence in your data
-- [ ] 14 226 243 Changes in the model force changes in the logic
-- [ ] 15 227 244 Using data modeled as Options in your logic
-- [ ] 16 228 245 Higher-order functions for the win!
-- [ ] 17 229 246 There is probably a higher-order function for that!
-- [ ] 18 230 247 Coffee break: forall/exists/contains
-- [ ] 19 231 248 Coffee break explained: forall/exists/contains
-- [ ] 20 232 249 Coupling a concept inside a single product type
-- [ ] 21 233 250 Modeling finite possibilities
-- [ ] 22 234 251 Using sum types
-- [ ] 23 235 252 Even better modeling with sum types
-- [ ] 24 236 253 Using the sum type + product type combo
-- [ ] 25 237 254 Product types + sum types = algebraic data types (ADTs)
-- [ ] 26 238 255 Using ADT-based models in behaviors (functions)
-- [ ] 27 239 256 Destructuring ADTs using pattern matching
-- [ ] 28 240 257 Duplication and DRY
-- [ ] 29 241 258 Practicing pattern matching
-- [ ] 30 242 259 Newtypes, ADTs, and pattern matching in the wild
-- [ ] 31 243 260 What about inheritance?
-- [ ] 32 244 261 Coffee break: Functional data design
-- [ ] 33 245 262 Coffee break explained: Functional data design
-- [ ] 34 246 263 Modeling behaviors
-- [ ] 35 247 264 Modeling behaviors as data
-- [ ] 36 248 265 Implementing functions with ADT-based parameters
-- [ ] 37 249 266 Coffee break: Design and maintainability
-- [ ] 38 250 267 Coffee break explained: Design and maintainability
+- [ ] 01 200 230 Modeling data to minimize programmers’ mistakes
+- [ ] 02 201 231 Well-modeled data can’t lie
+- [ ] 03 202 232 Designing using what we know so far (which is primitive types)
+- [ ] 04 203 233 Using data modeled as primitive types
+- [ ] 05 204 234 Coffee break: The pain of primitive types
+- [ ] 06 205 235 Coffee break explained: The pain of primitive types
+- [ ] 07 206 236 Problems with the primitive type approach to modeling
+- [ ] 08 207 237 Using primitive types makes our jobs harder!
+- [ ] 09 208 238 Newtypes protect against misplaced parameters
+- [ ] 10 209 239 Using newtypes in data models
+- [ ] 11 210 240 Practicing newtypes
+- [ ] 12 211 241 Making sure only valid data combinations are possible
+- [ ] 13 212 242 Modeling possibility of absence in your data
+- [ ] 14 213 243 Changes in the model force changes in the logic
+- [ ] 15 214 244 Using data modeled as Options in your logic
+- [ ] 16 215 245 Higher-order functions for the win!
+- [ ] 17 216 246 There is probably a higher-order function for that!
+- [ ] 18 217 247 Coffee break: forall/exists/contains
+- [ ] 19 218 248 Coffee break explained: forall/exists/contains
+- [ ] 20 219 249 Coupling a concept inside a single product type
+- [ ] 21 220 250 Modeling finite possibilities
+- [ ] 22 221 251 Using sum types
+- [ ] 23 222 252 Even better modeling with sum types
+- [ ] 24 223 253 Using the sum type + product type combo
+- [ ] 25 224 254 Product types + sum types = algebraic data types (ADTs)
+- [ ] 26 225 255 Using ADT-based models in behaviors (functions)
+- [ ] 27 226 256 Destructuring ADTs using pattern matching
+- [ ] 28 227 257 Duplication and DRY
+- [ ] 29 228 258 Practicing pattern matching
+- [ ] 30 229 259 Newtypes, ADTs, and pattern matching in the wild
+- [ ] 31 230 260 What about inheritance?
+- [ ] 32 231 261 Coffee break: Functional data design
+- [ ] 33 232 262 Coffee break explained: Functional data design
+- [ ] 34 233 263 Modeling behaviors
+- [ ] 35 234 264 Modeling behaviors as data
+- [ ] 36 235 265 Implementing functions with ADT-based parameters
+- [ ] 37 236 266 Coffee break: Design and maintainability
+- [ ] 38 237 267 Coffee break explained: Design and maintainability
 
 ### 8 IO as values 269
-- [ ] 01 251 270 Talking to the outside world
-- [ ] 02 252 271 Integrating with an external API
-- [ ] 03 253 272 Properties of a side-effectful IO action
-- [ ] 04 254 273 Imperative solution to side-effecting IO code
-- [ ] 05 255 274 Problems with the imperative approach to IO
-- [ ] 06 256 275 Can we really do better using FP?
-- [ ] 07 257 276 Doing IO vs. using IO’s result
-- [ ] 08 258 277 Handling IO imperatively
-- [ ] 09 259 278 Computations as IO values
-- [ ] 10 260 279 IO values
-- [ ] 11 261 280 IO values in the wild
-- [ ] 12 262 281 Pushing the impurity out
-- [ ] 13 263 282 Using values fetched from two IO actions
-- [ ] 14 264 283 Combining two IO values into a single IO value
-- [ ] 15 265 284 Practicing creating and combining IO values
-- [ ] 16 266 285 Disentangling concerns by working with values only
-- [ ] 17 267 286 The IO type is viral
-- [ ] 18 268 287 Coffee break: Working with values
-- [ ] 19 269 288 Coffee break explained: Working with values
-- [ ] 20 270 289 Toward functional IO
-- [ ] 21 271 290 What about IO failures?
-- [ ] 22 272 291 Running a program described by IO may fail!
-- [ ] 23 273 292 Remember orElse?
-- [ ] 24 274 293 Lazy and eager evaluation
-- [ ] 25 275 294 Implementing recovery strategies using IO.orElse
-- [ ] 26 276 295 Implementing fallbacks using orElse and pure
-- [ ] 27 279 296 Practicing failure recovery in IO values
-- [ ] 28 280 297 Where should we handle potential failures?
-- [ ] 29 281 298 Toward functional IO with failure handling
-- [ ] 30 282 299 Pure functions don’t lie, even in the unsafe world!
-- [ ] 31 283 300 Functional architecture
-- [ ] 32 284 301 Using IO to store data
-- [ ] 33 285 304 Coffee break: Using IO to store data
-- [ ] 34 286 305 Coffee break explained: Using IO to store data
-- [ ] 35 287 306 Treating everything as values
-- [ ] 36 288 307 Treating retries as values
-- [ ] 37 289 309 Treating an unknown number of API calls as values
-- [ ] 38 290 311 Practicing functional signature intuitions
+- [ ] 01 238 270 Talking to the outside world
+- [ ] 02 239 271 Integrating with an external API
+- [ ] 03 240 272 Properties of a side-effectful IO action
+- [ ] 04 241 273 Imperative solution to side-effecting IO code
+- [ ] 05 242 274 Problems with the imperative approach to IO
+- [ ] 06 243 275 Can we really do better using FP?
+- [ ] 07 244 276 Doing IO vs. using IO’s result
+- [ ] 08 245 277 Handling IO imperatively
+- [ ] 09 246 278 Computations as IO values
+- [ ] 10 247 279 IO values
+- [ ] 11 248 280 IO values in the wild
+- [ ] 12 249 281 Pushing the impurity out
+- [ ] 13 250 282 Using values fetched from two IO actions
+- [ ] 14 251 283 Combining two IO values into a single IO value
+- [ ] 15 252 284 Practicing creating and combining IO values
+- [ ] 16 253 285 Disentangling concerns by working with values only
+- [ ] 17 254 286 The IO type is viral
+- [ ] 18 255 287 Coffee break: Working with values
+- [ ] 19 256 288 Coffee break explained: Working with values
+- [ ] 20 257 289 Toward functional IO
+- [ ] 21 258 290 What about IO failures?
+- [ ] 22 259 291 Running a program described by IO may fail!
+- [ ] 23 260 292 Remember orElse?
+- [ ] 24 261 293 Lazy and eager evaluation
+- [ ] 25 262 294 Implementing recovery strategies using IO.orElse
+- [ ] 26 263 295 Implementing fallbacks using orElse and pure
+- [ ] 27 264 296 Practicing failure recovery in IO values
+- [ ] 28 265 297 Where should we handle potential failures?
+- [ ] 29 266 298 Toward functional IO with failure handling
+- [ ] 30 267 299 Pure functions don’t lie, even in the unsafe world!
+- [ ] 31 268 300 Functional architecture
+- [ ] 32 269 301 Using IO to store data
+- [ ] 33 270 304 Coffee break: Using IO to store data
+- [ ] 34 271 305 Coffee break explained: Using IO to store data
+- [ ] 35 272 306 Treating everything as values
+- [ ] 36 273 307 Treating retries as values
+- [ ] 37 274 309 Treating an unknown number of API calls as values
+- [ ] 38 275 311 Practicing functional signature intuitions
 
 ### 9 Streams as values 313
-- [ ] 01 291 314 To infinity and beyond
-- [ ] 02 292 315 Dealing with an unknown number of values
-- [ ] 03 293 316 Dealing with external impure API calls (again)
-- [ ] 04 294 317 The functional approach to the design
-- [ ] 05 295 318 Immutable maps
-- [ ] 06 296 319 Practicing immutable maps
-- [ ] 07 297 320 How many IO calls should we make?
-- [ ] 08 298 321 The bottom-up design
-- [ ] 09 299 322 Advanced list operations
-- [ ] 10 300 323 Introducing tuples
-- [ ] 11 301 324 Zipping and dropping
-- [ ] 12 302 325 Pattern matching on tuples
-- [ ] 13 303 326 Coffee break: Working with maps and tuples
-- [ ] 14 304 327 Coffee break explained: Working with maps and tuples
-- [ ] 15 305 328 Functional jigsaw puzzle
-- [ ] 16 306 329 Following types in a bottom-up design
-- [ ] 17 307 330 Prototyping and dead ends
-- [ ] 18 308 331 Recursive functions
-- [ ] 19 309 332 Infinity and laziness
-- [ ] 20 310 333 Recursive function structure
-- [ ] 21 311 334 Dealing with an absence in the future (using recursion)
-- [ ] 22 312 335 Usefulness of infinite recursive calls
-- [ ] 23 313 336 Coffee break: Recursion and infinity
-- [ ] 24 314 337 Coffee break explained: Recursion and infinity
-- [ ] 25 315 338 Creating different IO programs using recursion
-- [ ] 26 316 339 Using recursion to make an arbitrary number of calls
-- [ ] 27 317 340 Problems with the recursive version
-- [ ] 28 318 341 Introducing data streams
-- [ ] 29 319 342 Streams in imperative languages
-- [ ] 30 320 343 Values on demand
-- [ ] 31 321 344 Stream processing, producers, and consumers
-- [ ] 32 322 345 Streams and IO
-- [ ] 33 323 346 The functional Stream
-- [ ] 34 324 347 Streams in FP are values
-- [ ] 35 325 348 Streams are recursive values
-- [ ] 36 326 349 Primitive operations and combinators
-- [ ] 37 327 350 Streams of IO-based values
-- [ ] 38 328 351 Infinite streams of IO-based values
-- [ ] 39 329 352 Executing for side effects
-- [ ] 40 330 353 Practicing stream operations
-- [ ] 41 331 354 Using streams to our advantage
-- [ ] 42 332 355 Infinite stream of API calls
-- [ ] 43 333 356 Handling IO failures in streams
-- [ ] 44 334 357 Separated concerns
-- [ ] 45 335 358 Sliding windows
-- [ ] 46 336 360 Waiting between IO calls
-- [ ] 47 337 361 Zipping streams
-- [ ] 48 338 362 Benefits of using the stream-based approach
+- [ ] 01 276 314 To infinity and beyond
+- [ ] 02 277 315 Dealing with an unknown number of values
+- [ ] 03 278 316 Dealing with external impure API calls (again)
+- [ ] 04 279 317 The functional approach to the design
+- [ ] 05 280 318 Immutable maps
+- [ ] 06 281 319 Practicing immutable maps
+- [ ] 07 282 320 How many IO calls should we make?
+- [ ] 08 283 321 The bottom-up design
+- [ ] 09 284 322 Advanced list operations
+- [ ] 10 285 323 Introducing tuples
+- [ ] 11 286 324 Zipping and dropping
+- [ ] 12 287 325 Pattern matching on tuples
+- [ ] 13 288 326 Coffee break: Working with maps and tuples
+- [ ] 14 289 327 Coffee break explained: Working with maps and tuples
+- [ ] 15 290 328 Functional jigsaw puzzle
+- [ ] 16 291 329 Following types in a bottom-up design
+- [ ] 17 292 330 Prototyping and dead ends
+- [ ] 18 293 331 Recursive functions
+- [ ] 19 294 332 Infinity and laziness
+- [ ] 20 295 333 Recursive function structure
+- [ ] 21 296 334 Dealing with an absence in the future (using recursion)
+- [ ] 22 297 335 Usefulness of infinite recursive calls
+- [ ] 23 298 336 Coffee break: Recursion and infinity
+- [ ] 24 299 337 Coffee break explained: Recursion and infinity
+- [ ] 25 300 338 Creating different IO programs using recursion
+- [ ] 26 301 339 Using recursion to make an arbitrary number of calls
+- [ ] 27 302 340 Problems with the recursive version
+- [ ] 28 303 341 Introducing data streams
+- [ ] 29 304 342 Streams in imperative languages
+- [ ] 30 305 343 Values on demand
+- [ ] 31 306 344 Stream processing, producers, and consumers
+- [ ] 32 307 345 Streams and IO
+- [ ] 33 308 346 The functional Stream
+- [ ] 34 309 347 Streams in FP are values
+- [ ] 35 310 348 Streams are recursive values
+- [ ] 36 311 349 Primitive operations and combinators
+- [ ] 37 312 350 Streams of IO-based values
+- [ ] 38 313 351 Infinite streams of IO-based values
+- [ ] 39 314 352 Executing for side effects
+- [ ] 40 315 353 Practicing stream operations
+- [ ] 41 316 354 Using streams to our advantage
+- [ ] 42 317 355 Infinite stream of API calls
+- [ ] 43 318 356 Handling IO failures in streams
+- [ ] 44 319 357 Separated concerns
+- [ ] 45 320 358 Sliding windows
+- [ ] 46 321 360 Waiting between IO calls
+- [ ] 47 322 361 Zipping streams
+- [ ] 48 323 362 Benefits of using the stream-based approach
 
 ### 10 Concurrent Programs 365
-- [ ] 01 339 366 Threads, threads everywhere
-- [ ] 02 340 367 Declarative concurrency
-- [ ] 03 343 368 Sequential vs. concurrent
-- [ ] 04 344 370 Coffee break: Sequential thinking
-- [ ] 05 345 370 Coffee break explained: Sequential thinking
-- [ ] 06 346 371 The need for batching
-- [ ] 07 347 372 Batching implementation
-- [ ] 08 348 373 The concurrent world
-- [ ] 09 349 374 The concurrent state
-- [ ] 10 350 375 Imperative concurrency
-- [ ] 11 351 377 Atomic references
-- [ ] 12 352 378 Introducing Ref
-- [ ] 13 353 379 Updating Ref values
-- [ ] 14 354 380 Using Ref values
-- [ ] 15 355 381 Making it all concurrent
-- [ ] 16 356 382 parSequence in action
-- [ ] 17 357 384 Practicing concurrent IOs
-- [ ] 18 358 385 Modeling concurrency
-- [ ] 19 359 386 Coding using Refs and fibers
-- [ ] 20 360 388 IOs that run infinitely
-- [ ] 21 361 389 Coffee break: Concurrent thinking
-- [ ] 22 362 390 Coffee break explained: Concurrent thinking
-- [ ] 23 363 391 The need for asynchronicity
-- [ ] 24 364 392 Preparing for asynchronous access
-- [ ] 25 365 393 Designing functional asynchronous programs
-- [ ] 26 366 394 Managing fibers manually
-- [ ] 27 367 395 Coding functional asynchronous programs
+- [ ] 01 324 366 Threads, threads everywhere
+- [ ] 02 325 367 Declarative concurrency
+- [ ] 03 326 368 Sequential vs. concurrent
+- [ ] 04 327 370 Coffee break: Sequential thinking
+- [ ] 05 328 370 Coffee break explained: Sequential thinking
+- [ ] 06 329 371 The need for batching
+- [ ] 07 330 372 Batching implementation
+- [ ] 08 331 373 The concurrent world
+- [ ] 09 332 374 The concurrent state
+- [ ] 10 333 375 Imperative concurrency
+- [ ] 11 334 377 Atomic references
+- [ ] 12 335 378 Introducing Ref
+- [ ] 13 336 379 Updating Ref values
+- [ ] 14 337 380 Using Ref values
+- [ ] 15 338 381 Making it all concurrent
+- [ ] 16 339 382 parSequence in action
+- [ ] 17 340 384 Practicing concurrent IOs
+- [ ] 18 341 385 Modeling concurrency
+- [ ] 19 342 386 Coding using Refs and fibers
+- [ ] 20 343 388 IOs that run infinitely
+- [ ] 21 344 389 Coffee break: Concurrent thinking
+- [ ] 22 345 390 Coffee break explained: Concurrent thinking
+- [ ] 23 346 391 The need for asynchronicity
+- [ ] 24 347 392 Preparing for asynchronous access
+- [ ] 25 348 393 Designing functional asynchronous programs
+- [ ] 26 349 394 Managing fibers manually
+- [ ] 27 350 395 Coding functional asynchronous programs
 
 ## Part 3 Applied Functional Programming..........397
 
 ### 11 Designing functional programs 399
-- [ ] 01 368 400 Make it work, make it right, make it fast
-- [ ] 02 369 401 Modeling using immutable values
-- [ ] 03 370 402 Business domain modeling and FP
-- [ ] 04 371 403 Data access modeling
-- [ ] 05 373 404 A bag of functions
-- [ ] 06 374 405 Business logic as a pure function
-- [ ] 07 375 406 Separating the real data access concern
-- [ ] 08 376 407 Integrating with APIs using imperative libraries and IO
-- [ ] 09 377 410 Following the design
-- [ ] 10 378 411 Implementing input actions as IO values
-- [ ] 11 379 413 Separating the library IO from other concerns
-- [ ] 12 380 414 Currying and inversion of control
-- [ ] 13 381 415 Functions as values
-- [ ] 14 382 416 Connecting the dots
-- [ ] 15 383 417 We made it work
-- [ ] 16 384 418 Making it right
-- [ ] 17 385 419 Resource leaks
-- [ ] 18 386 420 Handling resources
-- [ ] 19 387 421 Using a Resource value
-- [ ] 20 388 422 We made it right
-- [ ] 21 389 423 Coffee break: Make it fast
-- [ ] 22 390 424 Coffee break explained: Make it fast
+- [ ] 01 351 400 Make it work, make it right, make it fast
+- [ ] 02 352 401 Modeling using immutable values
+- [ ] 03 353 402 Business domain modeling and FP
+- [ ] 04 354 403 Data access modeling
+- [ ] 05 355 404 A bag of functions
+- [ ] 06 356 405 Business logic as a pure function
+- [ ] 07 357 406 Separating the real data access concern
+- [ ] 08 358 407 Integrating with APIs using imperative libraries and IO
+- [ ] 09 359 410 Following the design
+- [ ] 10 360 411 Implementing input actions as IO values
+- [ ] 11 361 413 Separating the library IO from other concerns
+- [ ] 12 362 414 Currying and inversion of control
+- [ ] 13 363 415 Functions as values
+- [ ] 14 364 416 Connecting the dots
+- [ ] 15 365 417 We made it work
+- [ ] 16 366 418 Making it right
+- [ ] 17 367 419 Resource leaks
+- [ ] 18 368 420 Handling resources
+- [ ] 19 369 421 Using a Resource value
+- [ ] 20 370 422 We made it right
+- [ ] 21 371 423 Coffee break: Make it fast
+- [ ] 22 372 424 Coffee break explained: Make it fast
 
 ### 12 Testing Functional Programs 427
-- [ ] 01 391 428 Do you have tests for that?
-- [ ] 02 392 429 Tests are just functions
-- [ ] 03 393 430 Choosing functions to test
-- [ ] 04 394 431 Testing by providing examples
-- [ ] 05 395 432 Practicing testing by example
-- [ ] 06 396 433 Generating good examples
-- [ ] 07 397 434 Generating properties
-- [ ] 08 398 435 Property-based testing
-- [ ] 09 399 436 Testing by providing properties
-- [ ] 10 400 437 Delegating the work by passing functions
-- [ ] 11 401 438 Understanding failures of property-based tests
-- [ ] 12 402 439 Wrong test or a bug?
-- [ ] 13 403 440 Custom generators
-- [ ] 14 406 441 Using custom generators
-- [ ] 15 407 442 Testing more complicated scenarios in a readable way
-- [ ] 16 408 443 Finding and fixing bugs in the implementation
-- [ ] 17 409 444 Coffee break: Property-based tests
-- [ ] 18 410 445 Coffee break explained: Property-based tests
-- [ ] 19 411 446 Properties and examples
-- [ ] 20 412 447 Requirements coverage
-- [ ] 21 413 448 Testing side-effectful requirements
-- [ ] 22 414 449 Identifying the right test for the job
-- [ ] 23 415 450 Data usage tests
-- [ ] 24 416 452 Practicing stubbing external services using IO
-- [ ] 25 417 453 Testing and design
-- [ ] 26 418 454 Service integration tests
-- [ ] 27 419 455 Local servers as Resources in integration tests
-- [ ] 28 420 456 Writing isolated integration tests
-- [ ] 29 421 457 Integration with a service is a single responsibility
-- [ ] 30 422 458 Coffee break: Writing integration tests
-- [ ] 31 423 459 Coffee break explained: Writing integration tests
-- [ ] 32 424 460 Integration tests take more time
-- [ ] 33 425 461 Property-based integration tests
-- [ ] 34 426 462 Choosing the right testing approach
-- [ ] 35 427 463 Test-driven development
-- [ ] 36 428 464 Writing a test for a feature that doesn’t exist
-- [ ] 37 429 465 Red-green-refactor
-- [ ] 38 430 466 Making tests green
-- [ ] 39 431 467 Adding more red tests
-- [ ] 40 432 468 The last TDD iteration
+- [ ] 01 373 428 Do you have tests for that?
+- [ ] 02 374 429 Tests are just functions
+- [ ] 03 375 430 Choosing functions to test
+- [ ] 04 376 431 Testing by providing examples
+- [ ] 05 377 432 Practicing testing by example
+- [ ] 06 378 433 Generating good examples
+- [ ] 07 379 434 Generating properties
+- [ ] 08 380 435 Property-based testing
+- [ ] 09 381 436 Testing by providing properties
+- [ ] 10 382 437 Delegating the work by passing functions
+- [ ] 11 383 438 Understanding failures of property-based tests
+- [ ] 12 384 439 Wrong test or a bug?
+- [ ] 13 385 440 Custom generators
+- [ ] 14 386 441 Using custom generators
+- [ ] 15 387 442 Testing more complicated scenarios in a readable way
+- [ ] 16 388 443 Finding and fixing bugs in the implementation
+- [ ] 17 389 444 Coffee break: Property-based tests
+- [ ] 18 390 445 Coffee break explained: Property-based tests
+- [ ] 19 391 446 Properties and examples
+- [ ] 20 392 447 Requirements coverage
+- [ ] 21 393 448 Testing side-effectful requirements
+- [ ] 22 394 449 Identifying the right test for the job
+- [ ] 23 395 450 Data usage tests
+- [ ] 24 396 452 Practicing stubbing external services using IO
+- [ ] 25 397 453 Testing and design
+- [ ] 26 398 454 Service integration tests
+- [ ] 27 399 455 Local servers as Resources in integration tests
+- [ ] 28 400 456 Writing isolated integration tests
+- [ ] 29 401 457 Integration with a service is a single responsibility
+- [ ] 30 402 458 Coffee break: Writing integration tests
+- [ ] 31 403 459 Coffee break explained: Writing integration tests
+- [ ] 32 404 460 Integration tests take more time
+- [ ] 33 405 461 Property-based integration tests
+- [ ] 34 406 462 Choosing the right testing approach
+- [ ] 35 407 463 Test-driven development
+- [ ] 36 408 464 Writing a test for a feature that doesn’t exist
+- [ ] 37 409 465 Red-green-refactor
+- [ ] 38 410 466 Making tests green
+- [ ] 39 411 467 Adding more red tests
+- [ ] 40 412 468 The last TDD iteration
 ### Appendix A 471
 ### Appendix B 477
 ### index 481
